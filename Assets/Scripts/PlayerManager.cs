@@ -6,7 +6,7 @@ public class PlayerManager : MonoBehaviour
 {
 
     public CharacterController player;
-
+  
 
     private void OnTriggerEnter(Collider other)
     {
