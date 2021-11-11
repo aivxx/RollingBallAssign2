@@ -11,7 +11,7 @@ public class PlayerManager : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         // Collect pick ups
-        if (other.CompareTag("Pick Up"))
+        if (other.CompareTag("PickUp"))
         {
             Debug.Log("Pick up collected!");
             GameObject.Destroy(other.gameObject);
